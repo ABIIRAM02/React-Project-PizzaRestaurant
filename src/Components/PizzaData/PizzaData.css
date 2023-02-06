@@ -1,0 +1,50 @@
+.PizzaData
+{
+    display: grid;
+    grid-template-columns: repeat(3 , 400px);
+    grid-row-gap: 100px;
+    grid-column-gap: 20px;
+    text-align: center;
+    margin: auto 9rem;
+    padding: 2rem 0 ;
+}
+.PizzaData>*{margin-bottom: 100px;}
+.data>h2>span
+{
+    color: var(--blue_color);
+}
+.data>*
+{
+    margin-top: 10px;
+}
+.data>div
+{
+    overflow: hidden;
+}
+.data>div>img
+{
+    height: 400px;
+    width: 360px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: all .3s ;
+    cursor: pointer;
+}
+.data>div>img:hover
+{
+    transform: scale(1.5);
+}
+.pizza>h1
+{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5rem;
+    color: var(--blue_color);
+}
+.pizza>p
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 5rem 10rem;
+    color: #777;
+}

@@ -1,0 +1,146 @@
+
+.info
+{
+    height: 85vh;
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0 20px;
+}
+.info-left>img
+{
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.info-right>*
+{
+    margin: 0 0 10px 0 ;
+}
+.info-right>h2 , h3
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: var(--blue_color);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.info-right>h3
+{
+    font-size: 30px;
+    border-bottom: 2px solid var(--blue_color);
+    width: fit-content;
+}
+.info-right>p
+{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+}
+.info-right>h4
+{
+    color: var(--blue_color);
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.png
+{
+    display: flex;
+}
+.png>div{height: 130px;}
+.png>*>h4
+{
+    position: relative;
+    top: -75px;
+    left: 5px;
+    background-color: var(--blue_color);
+    padding: 2px 8px;
+    width: fit-content;
+    border-radius: 10px;
+    color: var(--text_color);
+    font-size: 12px;
+    font-weight: 400;
+}
+.png>*>img
+{
+    height: 80px;
+    cursor: pointer;
+}
+.png>:nth-child(2)>img
+{
+    height: 100px;
+}
+.png>:nth-child(3)>img
+{
+    height: 120px;
+}
+
+.additional>h1
+{
+    color: var(--blue_color);
+    word-spacing: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.additional>.check
+{
+    margin-right: 10px ;
+}
+.check>input
+{
+    height: 25px;
+    width: 30px;
+    margin: 10px;
+    margin-right: 20px;
+}
+.check>label
+{
+    font-size: 20px;
+}
+
+.add-to-cart
+{
+    margin: 3rem 0px;
+}
+.add-to-cart>*
+{
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: 6px;
+}
+.add-to-cart>input
+{
+    height: 62px;
+    width: 55px;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 30px;
+    border: 2px solid var(--blue_color);
+    color: var(--blue_color);
+}
+.add-to-cart>button
+{
+
+    padding: 20px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text_color);
+    background-color: var(--blue_color);
+    cursor: pointer;
+    transition: all .2s;
+}
+.add-to-cart>button:hover
+{
+    background:rgb(0, 167, 61);
+}
+.add-to-cart>button:active
+{
+    padding: 15px 10px;
+
+}
+

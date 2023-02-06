@@ -1,0 +1,206 @@
+{
+  "pizza": [
+    {
+      "id": 1,
+      "img": "https://media.istockphoto.com/id/1358724240/photo/pizza-capricciosa-with-white-mushrooms-ham-tomatoes-and-mozzarella-on-wooden-background.jpg?s=612x612&w=0&k=20&c=yPleFX3Hx7gS2LXldANO_mKxbwA18iv4AoNcVyYZOqA=",
+      "category": "Pizza",
+      "name": "Vesuvius",
+      "topping": [
+        "Tomat",
+        "Ost",
+        "Skinka"
+      ],
+      "price": [
+        50,
+        80,
+        100
+      ],
+      "rank": 3
+    },
+    {
+      "id": 2,
+      "img": "https://media.istockphoto.com/id/859315158/photo/pizza-salami-pepper.jpg?s=612x612&w=0&k=20&c=6Ah7KhbRAUv-P6R0OTdHGyHAxK2shiPGoB1RaWMtAUc=",
+      "category": "Pizza",
+      "name": "Hawaii",
+      "topping": [
+        "Tomat",
+        "Ost",
+        "Skinka",
+        "Ananas"
+      ],
+      "price": [
+        50,
+        80,
+        100
+      ],
+      "rank": 1
+    },
+    {
+      "id": 3,
+      "img": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "category": "Pizza",
+      "name": "Parma",
+      "topping": [
+        "Tomat",
+        "Ost",
+        "Parmaskinka",
+        "Oliver",
+        "Färska basilika"
+      ],
+      "price": [
+        50,
+        80,
+        100
+      ],
+      "rank": 2
+    },
+    {
+      "id": 4,
+      "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZnVsbCUyMHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "category": "pizza",
+      "name": "Cocail",
+      "price": [
+        50,
+        80,
+        100
+      ]
+    },
+    {
+      "id": 5,
+      "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZ1bGwlMjBwaXp6YXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "category": "pizza",
+      "name": "Lokanam",
+      "price": [
+        50,
+        80,
+        100
+      ]
+    },
+    {
+      "id": 6,
+      "img": "https://media.istockphoto.com/id/1307456187/photo/tasty-margherita-pizza-with-mushrooms-on-wooden-background.jpg?s=612x612&w=0&k=20&c=TQsn85EMknks-Rap9GL7ZJ7D36_islnFcK5if2Wu7CQ=",
+      "category": "pizza",
+      "name": "Pizzasal",
+      "price": [
+        50,
+        80,
+        100
+      ]
+    },
+    {
+      "id": 7,
+      "img": "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZ1bGwlMjBwaXp6YXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "name": "vinch",
+      "price": [
+        50,
+        80,
+        100
+      ]
+    },
+    {
+      "id": 8,
+      "img": "https://media.istockphoto.com/id/1248285232/photo/savory-homemade-meat-lovers-pizza.jpg?s=612x612&w=0&k=20&c=ZSTvnyxOEnghtlgnnnrPJ2TWFFpFlypfvtdlhrkbWog=",
+      "category": "Pizza",
+      "name": "Hawaii",
+      "topping": [
+        "Tomat",
+        "Ost",
+        "Skinka",
+        "Ananas"
+      ],
+      "price": [
+        50,
+        80,
+        100
+      ],
+      "rank": 1
+    },
+    {
+      "id": 9,
+      "img": "https://media.istockphoto.com/id/609905538/photo/pizza-with-meat-and-basil-on-a-wooden-tray.jpg?s=612x612&w=0&k=20&c=Vltu5zBRLP4l7oxi36xlAZMxhupv3M8S-unh6wV-eLw=",
+      "category": "pizza",
+      "name": "Coca-cola, 33cl",
+      "price": [
+        50,
+        80,
+        100
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "pizza": {
+        "id": 9,
+        "img": "https://media.istockphoto.com/id/609905538/photo/pizza-with-meat-and-basil-on-a-wooden-tray.jpg?s=612x612&w=0&k=20&c=Vltu5zBRLP4l7oxi36xlAZMxhupv3M8S-unh6wV-eLw=",
+        "category": "pizza",
+        "name": "Coca-cola, 33cl",
+        "price": [
+          50,
+          80,
+          100
+        ]
+      },
+      "extra": 20,
+      "size": 1,
+      "input": "3",
+      "id": 1
+    },
+    {
+      "pizza": {
+        "id": 4,
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZnVsbCUyMHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "category": "pizza",
+        "name": "Cocail",
+        "price": [
+          50,
+          80,
+          100
+        ]
+      },
+      "extra": 20,
+      "size": 1,
+      "input": 1,
+      "id": 3
+    },
+    {
+      "pizza": {
+        "id": 5,
+        "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZ1bGwlMjBwaXp6YXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "category": "pizza",
+        "name": "Lokanam",
+        "price": [
+          50,
+          80,
+          100
+        ]
+      },
+      "extra": 20,
+      "size": 2,
+      "input": "5",
+      "id": 4
+    },
+    {
+      "pizza": {
+        "id": 1,
+        "img": "https://media.istockphoto.com/id/1358724240/photo/pizza-capricciosa-with-white-mushrooms-ham-tomatoes-and-mozzarella-on-wooden-background.jpg?s=612x612&w=0&k=20&c=yPleFX3Hx7gS2LXldANO_mKxbwA18iv4AoNcVyYZOqA=",
+        "category": "Pizza",
+        "name": "Vesuvius",
+        "topping": [
+          "Tomat",
+          "Ost",
+          "Skinka"
+        ],
+        "price": [
+          50,
+          80,
+          100
+        ],
+        "rank": 3
+      },
+      "extra": 10,
+      "size": 1,
+      "input": 1,
+      "id": 5
+    }
+  ]
+}
